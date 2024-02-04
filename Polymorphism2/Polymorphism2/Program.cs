@@ -23,19 +23,19 @@ namespace Polymorphism2
 
             if (Pilihan == 1)
             {
-                Gula gula = new Gula();
+                IGula gula = new IGula();
                 gula.Tempat();
             }
             
             else if (Pilihan == 2)
             {
-                Garam garam = new Garam();
+                IGaram garam = new IGaram();
                 garam.Tempat();
             }
             
             else if (Pilihan == 3)
             {
-                Beras beras = new Beras();
+                IBeras beras = new IBeras();
                 beras.Tempat();
             }
             else

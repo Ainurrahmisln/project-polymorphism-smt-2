@@ -47,13 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Beras.cs" />
+    <Compile Include="IBeras.cs" />
     <Compile Include="BerasSerializer.cs" />
-    <Compile Include="Garam.cs" />
-    <Compile Include="Gula .cs" />
+    <Compile Include="IGaram.cs" />
+    <Compile Include="IGula .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TokoSembako.cs" />
+    <Compile Include="ITokoSembako.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
